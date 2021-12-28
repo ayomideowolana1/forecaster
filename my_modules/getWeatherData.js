@@ -14,9 +14,6 @@ export default async function getWeatherData(location) {
       case "bad query":
         alert("Please Enter a valid location");
         break;
-      case "invalid city":
-        alert("Location not found");
-        break;
     }
   }
 }
